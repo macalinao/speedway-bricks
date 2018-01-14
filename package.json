@@ -21,5 +21,8 @@
   "homepage": "https://github.com/macalinao/speedway-bricks#readme",
   "dependencies": {
     "zeppelin-solidity": "^1.5.0"
+  },
+  "devDependencies": {
+    "truffle": "^4.0.4"
   }
 }

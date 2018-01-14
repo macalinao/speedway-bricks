@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "merge": "sol-merger ./contracts/SpeedwayBricks.sol ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
     "zeppelin-solidity": "^1.5.0"
   },
   "devDependencies": {
+    "sol-merger": "^0.1.2",
     "truffle": "^4.0.4"
   }
 }
